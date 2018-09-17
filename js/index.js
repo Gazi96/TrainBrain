@@ -1,11 +1,11 @@
 "use strict";
 
-const audioUp = new Audio('../sound/up.mp3');
-const audioDown = new Audio('../sound/down.mp3');
-const audioLeft = new Audio('../sound/left.mp3');
-const audioRight = new Audio('../sound/right.mp3');
-const audioOpenEyes = new Audio('../sound/open your eyes.mp3');
-const audioClick = new Audio('../sound/click the square.mp3');
+const audioUp = new Audio('https://gazi96.github.io/TrainBrain/sound/up.mp3');
+const audioDown = new Audio('https://gazi96.github.io/TrainBrain//sound/down.mp3');
+const audioLeft = new Audio('https://gazi96.github.io/TrainBrain//sound/left.mp3');
+const audioRight = new Audio('https://gazi96.github.io/TrainBrain//sound/right.mp3');
+const audioOpenEyes = new Audio('https://gazi96.github.io/TrainBrain//sound/open your eyes.mp3');
+const audioClick = new Audio('https://gazi96.github.io/TrainBrain//sound/click the square.mp3');
 const startButton = document.getElementsByClassName("main__button")[0];
 let points = 0;
 
